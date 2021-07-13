@@ -1,0 +1,9 @@
+### Maven ###
+target/
+
+### VSCode ###
+.vscode
+
+### IntelliJ IDEA ###
+.idea
+*.iml

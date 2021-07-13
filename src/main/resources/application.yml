@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: 'jdbc:h2:mem:jpa-auditing'
+  driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: false
