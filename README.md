@@ -39,7 +39,7 @@ With the application up and running, lets test the Spring JPA auditing capabilit
 
 
 ## Disclaimer
-For simplicity, in the [JpaAuditingConfiguration](./src/main/java/br/com/darchanjo/examples/jpa/auditing/config/JpaAuditingConfiguration.java) config bean I'm hard-coding the user `davidarchanjo`, as the "fake" logged user responsible for inserting and updating into the database. In case you're using spring-security, you can get the current logged user's name by calling: 
+For simplicity's sake, in the [JpaAuditingConfiguration](./src/main/java/br/com/darchanjo/examples/jpa/auditing/config/JpaAuditingConfiguration.java) config bean I'm hard-coding the user `davidarchanjo`, as the "fake" logged user responsible for inserting and updating into the database. In case you're using spring-security, you can get the current logged user's name by calling: 
 ```
 SecurityContextHolder.getContext().getAuthentication().getName()
 ```
