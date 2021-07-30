@@ -32,14 +32,14 @@ With the application up and running, lets test the Spring JPA auditing capabilit
   **It is important to note, in general, audit information are not transmitted in api's response payload, as it is usually for internal use only.**
   
   
-- Now, lets modify the user's email and see what happen:
+- Now, lets modify the user's email and see what happens:
   ![update_user](./assets/update_user.jpg)
   ![get_updated_user](./assets/get_updated_user.jpg)
   Notice the date and time of the `lastModifiedDate` field was updated, thus reflecting this record was modified since its creation by the user `davidarchanjo`. 
 
 
 ## Disclaimer
-For simplicity, in the [JpaAuditingConfiguration](./src/main/java/br/com/darchanjo/examples/jpa/auditing/config/JpaAuditingConfiguration.java) config bean I'm hard-coding the user `davidarchanjo`, as the "fake" logged user responsible for inserting and updating into the database. In case you're using spring-security, you can get the current logged user's name by calling: 
+For simplicity's sake, in the [JpaAuditingConfiguration](./src/main/java/br/com/darchanjo/examples/jpa/auditing/config/JpaAuditingConfiguration.java) config bean I'm hard-coding the user `davidarchanjo`, as the "fake" logged user responsible for inserting and updating into the database. In case you're using spring-security, you can get the current logged user's name by calling: 
 ```
 SecurityContextHolder.getContext().getAuthentication().getName()
 ```
