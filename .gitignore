@@ -7,3 +7,10 @@ target/
 ### IntelliJ IDEA ###
 .idea
 *.iml
+
+### OTHERS ###
+.apt_generated_tests/*
+.settings/*
+.classpath
+.project
+.factorypath

@@ -1,5 +1,5 @@
 # Spring Boot + JPA Database Auditing
-![background](./assets/background.jpg)
+![background](./assets/banner.jpg)
 
 ## Overview
 [Spring Data JPA](https://spring.io/projects/spring-data-jpa) provides some set of convenient and useful annotations for database auditing. It provides a way to keep a track of **who did the change** and **when it was done**.
