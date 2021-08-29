@@ -1,4 +1,4 @@
-package br.com.darchanjo.examples.jpa.auditing.config;
+package br.com.example.davidarchanjo.config;
 
 import java.util.Optional;
 
